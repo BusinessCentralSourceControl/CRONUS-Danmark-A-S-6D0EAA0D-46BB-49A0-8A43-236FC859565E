@@ -1,0 +1,47 @@
+{
+  "id": "d6978c22-4a2f-452a-8f12-efdcf158d7e4",
+  "name": "ForNAV Core Development e4",
+  "publisher": "ForNAV",
+  "brief": "Development version of AppSource",
+  "description": "The ForNAV core development project.",
+  "version": "6.1.0.0",
+  "privacyStatement": "https://www.fornav.com/privacy-policy/",
+  "EULA": "https://www.fornav.com/documents/EULA.pdf",
+  "help": "https://www.fornav.com/cloud/",
+  "url": "https://www.fornav.com/cloud/",
+  "runtime": "7.0",
+  "showMyCode": true,
+  "target": "Cloud",
+  "platform": "18.0.29486.0",
+  "contextSensitiveHelpUrl": "https://www.fornav.com/cloud/",
+  "features": [
+    "TRANSLATIONFILE"
+  ],
+  "dependencies": [
+    {
+      "id": "8c972578-fe72-4aa5-ae51-cc5575fef2ea",
+      "name": "Send To Email Printer",
+      "version": "18.0.0.0",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "c1335042-3002-4257-bf8a-75c898ccb1b8",
+      "name": "Application",
+      "version": "18.0.0.0",
+      "publisher": "Microsoft"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 6188471,
+      "to": 6189470
+    },
+    {
+      "from": 11014000,
+      "to": 11014000
+    }
+  ],
+  "preprocessorSymbols": [
+    "LocalPrintService"
+  ]
+}
